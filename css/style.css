@@ -1,0 +1,192 @@
+body{
+	/*background: #FFFCC7;*/
+	background: url(../image/bg.png);
+	background-size: cover;	
+	background-repeat: no-repeat;
+	margin: 0;
+	min-width: 960px;
+}
+#page{
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 100%;
+}
+/*--------Navigation---------*/
+#nav{
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 290px;
+	background: #3366ff;
+	position: fixed;
+	border: 1px solid white;
+}
+.navbar li a{
+	display: block;
+	color: white;
+	padding: 8px 0 8px 10px;
+	font-family: Georgia, serif;
+	height: 22px;
+	letter-spacing: 1px;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: auto;
+	list-style-type: none;
+}
+.navbar li a.active{
+	background-color: white;
+	color: #990000;
+}
+.navbar li a:hover:not(.active){
+	color: #3366ff;
+	background: white;
+}
+/*-------Container------*/
+#container{
+  float: right;
+  width: 70%;
+  height: 100%;
+  background: white;
+  position: relative;
+  font-size: 14px;
+  font-family: Georgia, serif;
+}
+#container div p{
+	text-align: center-left;
+	font-size: 14px;
+}
+#container div{
+	padding: 20px 20px;
+}
+#container div div{
+	width: 400px;
+	height: 350px;
+}
+#container div h2{ 
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	font: serif;
+	font-style: italic;
+	text-decoration: underline;
+}
+#container div div.teamimg p{
+	position: absolute;
+	width: 350px;
+	top: 300px;
+	padding-left: 20px;
+	font-size: 20px;
+	color: #DB9400;
+}
+#container div div.teamimg img{
+	border: 1px solid black;
+	float: center;
+}
+#container div div.teamimg{
+	width: 80%;
+	height: 50%;
+	position: relative;
+}
+#container div div.img{
+	width: 400px;
+	height: 400px;
+	display: inline;
+}
+#container div div.img img{
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#container div div.img p{
+	position: absolute;
+	top: 330px;
+	left: 50%;
+	font-size: 15px;
+}
+/*---------Contact Section----------*/
+#container div #contact{
+	top: 70%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#container div #contact ul li{
+	text-align: left;
+	list-style-type: none;
+	width: 150px;
+}
+#container div #contact ul ul li {
+	line-height: 20px;
+}
+/*---------Connect Section----------*/
+#container div #contact .connect{
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+#container div #contact .connect ul #facebook img,
+#container div #contact .connect ul #linkedin img,
+#container div #contact .connect ul #googleplus img{
+	width: 45px;
+	height: 45px;
+	padding: 3px;
+}
+/*--------Slideshow---------*/
+#container div div.gallery{
+	position: relative;
+	min-width: 500px;
+	min-height: 400px;
+}
+
+#container  div div.gallery img.mySlides{
+	width: 500px;
+	height: 400px;
+}
+ #container div #row div.col img.demo{
+	width: 200px;
+	height: 150px;
+	border: 1px solid black;
+ }
+ #container div #row{
+	 background-color: #ffffff;
+	 height: 2700px;
+	 width: 630px;
+	 margin: auto;
+	 padding: 5px;
+ }
+#container div #row div.col{
+	width: 650px;
+	height: 150px;
+	float: left;
+	display: inline;
+}
+#container div div.gallery a.btn1{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+#container div div.gallery a.btn2{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+/*---------Footer Section----------*/
+#footer{
+	background: #202958;
+	margin: 2px;
+	height: 20px;
+}
+#footer p {
+	color: #6e7492;
+	font-size: 12px;
+	float: right;
+	margin: 0 24px 0 0;
+}
+
